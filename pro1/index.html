@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Make Changes</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    scroll-behavior: smooth; /* smooth scroll */
+  }
+
+  section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+  }
+
+  /* Landing Section */
+  #landing h1 {
+    font-size: 48px;
+    max-width: 900px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  #landing button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+    transition: 0.4s;
+    animation: fadeInUp 2s ease-in-out;
+  }
+
+  #landing button:hover {
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    color: #000;
+    transform: scale(1.05);
+  }
+
+  /* Login Section */
+  #login {
+    background: rgba(0,0,0,0.6);
+  }
+
+  .login-box {
+    background: rgba(255,255,255,0.08);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+
+  .login-box h2 {
+    margin-bottom: 20px;
+    color: #4facfe;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    color: black;
+  }
+
+  .guest-btn {
+    margin-top: 15px;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+  }
+  .guest-btn:hover {
+    background: #4facfe;
+    color: #000;
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+
+<!-- Landing Section -->
+<section id="landing">
+  <h1>"The body achieves what the mind believes.  
+  Take the first step and <b>Make Changes</b> today."</h1>
+  <button onclick="document.getElementById('login').scrollIntoView({behavior:'smooth'})">
+    Get Started
+  </button>
+</section>
+
+<!-- Login Section -->
+<section id="login">
+  <div class="login-box">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button onclick="goToGoals()">Login</button>
+    <button class="guest-btn" onclick="goToGoals()">Sign in as Guest</button>
+  </div>
+</section>
+
+<script>
+function goToGoals() {
+  window.open("goals.html", "_blank"); // goes to goals page
+}
+</script>
+
+</body>
+</html>

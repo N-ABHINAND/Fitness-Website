@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select Goal - Make Changes</title>
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f2027;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  h1 {
+    color: #4facfe;
+    margin-bottom: 30px;
+  }
+  .goals {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .goal {
+    background: rgba(255,255,255,0.08);
+    padding: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .goal:hover {
+    transform: translateY(-5px);
+    background: rgba(79,172,254,0.15);
+  }
+  .goal img {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  /* Back button */
+  .back-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .back-btn:hover {
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    color: black;
+  }
+</style>
+</head>
+<body>
+  <h1>Select Your Goal</h1>
+  <div class="goals">
+    <div class="goal" onclick="window.location.href='family.html'">
+      <img src="https://img.icons8.com/color/96/family.png" alt="Family Fitness">
+      <h2>Family Fitness</h2>
+    </div>
+    <div class="goal" onclick="window.location.href='muscle.html'">
+      <img src="https://img.icons8.com/color/96/dumbbell.png" alt="Muscle Building">
+      <h2>Muscle Building</h2>
+    </div>
+    <div class="goal" onclick="window.location.href='weight.html'">
+      <img src="https://img.icons8.com/color/96/scale.png" alt="Weight Loss">
+      <h2>Weight Loss</h2>
+    </div>
+  </div>
+  <!-- Back button -->
+  <button class="back-btn" onclick="window.history.back()">⬅ Go Back</button>
+</body>
+</html>
