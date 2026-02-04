@@ -1,125 +1,80 @@
-🟢 Project Overview
+# Make Changes 💪
 
-This project is a front-end fitness website built using HTML, CSS, and JavaScript.
-It guides users from a motivational landing page to goal-based workout plans with 10-day structured routines, progress tracking, and trainer assistance placeholders.
+> *"The body achieves what the mind believes. Take the first step and Make Changes today."*
 
-The website focuses on:
+---
 
-Encouraging consistency in workouts
+## 🟢 About
 
-Providing goal-specific exercise plans
+A modern fitness web application with a beautiful gradient UI and smooth animations. Users can choose between three fitness goals: Family Fitness, Muscle Building, and Weight Loss.
 
-Tracking daily progress using browser storage
+🏴 **Tech Stack:** HTML, CSS, JavaScript  
+🏴 **Type:** Static Web Application  
+🏴 **Design:** Glassmorphism with gradient backgrounds
 
-Delivering a smooth and visually appealing user experience
+---
 
-🟢 Project Structure
-Fitness-Website/
-├── index.html        # Landing page & login screen
-├── goals.html        # Fitness goal selection page
-├── family.html       # Family fitness 10-day workout plan
-├── muscle.html       # Muscle building 10-day workout plan
-├── weight.html       # Weight loss 10-day workout plan
-└── README.md         # Project documentation
+## 🟢 Features
 
-🟢 Features & Capabilities
+🏴 Inspirational landing page with smooth scroll  
+🏴 Login system with guest access  
+🏴 Three fitness goal pathways  
+🏴 Responsive design for all devices  
+🏴 Modern animations and transitions
 
-🏴 Motivational landing page with smooth scrolling
-🏴 Login and guest access option
-🏴 Goal selection (Family Fitness, Muscle Building, Weight Loss)
-🏴 10-day structured workout plans for each goal
-🏴 Exercise cards with sets, reps, and duration
-🏴 Visual progress bars for each exercise
-🏴 Day-wise completion tracking using localStorage
-🏴 Trainer assistance section (future video call support)
-🏴 Fully responsive and modern UI design
+---
 
-🟢 Technologies & Tools
-Frontend
+## 🟢 Project Structure
 
-🏴 HTML5 – Structure of the web pages
-🏴 CSS3 – Styling, animations, gradients, glassmorphism effects
-🏴 JavaScript (Vanilla) – Dynamic content generation & logic
+```
+pro1/
+├── index.html          # Landing page with login
+├── goals.html          # Goal selection page
+├── family.html         # Family fitness tracker
+├── muscle.html         # Muscle building program
+└── weight.html         # Weight loss tracker
+```
 
-Browser Storage
+---
 
-🏴 LocalStorage – Tracks completed workout days for each plan
+## 🟢 Getting Started
 
-🟢 Application Workflow
-User Visits Website
-        ↓
-Motivational Landing Page
-        ↓
-Login / Guest Access
-        ↓
-Goal Selection Page
-        ↓
-Selected Workout Plan (10 Days)
-        ↓
-Daily Progress Tracking
+### Quick Start
+🏴 Simply open `index.html` in your browser  
+🏴 No installation or dependencies required
 
-🟢 Key Advantages
+### Using a Local Server (Optional)
+```bash
+# Python
+python -m http.server 8000
 
-🏴 No backend required – fully frontend-based
-🏴 Fast and lightweight
-🏴 Works offline once loaded
-🏴 Easy to customize workout plans
-🏴 Beginner-friendly UI
-🏴 Resume and portfolio ready project
+# Node.js
+npx serve
+```
 
-🟢 Setup & Installation
-Prerequisites
+---
 
-🏴 Any modern web browser (Chrome, Edge, Firefox)
+## 🟢 Usage
 
-Steps to Run
+🏴 Click "Get Started" on the landing page  
+🏴 Login or continue as guest  
+🏴 Select your fitness goal  
+🏴 Start tracking your progress
 
-Download or clone the repository
+---
 
-Open index.html in a browser
 
-Start exploring fitness plans 🎯
+## 🟢 Browser Support
 
-No additional installation required.
+🏴 Chrome ✅  
+🏴 Firefox ✅  
+🏴 Safari ✅  
+🏴 Edge ✅
 
-🟢 Usage
+---
 
-Open the landing page
+<div align="center">
 
-Click Get Started
+**Made with ❤️ for fitness enthusiasts**
 
-Login or continue as guest
-
-Select your fitness goal
-
-Follow the 10-day workout plan
-
-Mark days as complete and track progress
-
-🟢 Example Use Cases
-
-🏴 Daily home workouts
-🏴 Beginner fitness guidance
-🏴 Family-friendly exercise routines
-🏴 Weight loss and muscle gain planning
-🏴 Frontend project for portfolio / resume
-
-🟢 Future Enhancements
-
-🏴 User authentication with backend
-🏴 Diet and nutrition plans
-🏴 Trainer video call integration
-🏴 Weekly/monthly workout plans
-🏴 Progress analytics dashboard
-
-🟢 License
-
-This project is open-source and intended for educational and portfolio use.
-
-🟢 Author
-
-Abhi Kuttu
-💻 Frontend & Software Developer
-📌 Fitness Website Project
-
-Built with ❤️ using HTML, CSS, and JavaScript
+</div>
