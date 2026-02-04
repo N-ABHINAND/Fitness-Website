@@ -1,4 +1,4 @@
-# Make Changes 💪
+# Make Changes 
 
 > *"The body achieves what the mind believes. Take the first step and Make Changes today."*
 
